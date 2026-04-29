@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+
+body {
+  /* Usando o caminho relativo (assumindo que o index.css está na pasta src) */
+  background-image: url('./assets/bg.png'); 
+  background-size: cover; 
+  background-position: center; 
+  background-attachment: fixed; 
+  background-color: #1e293b; 
+}
